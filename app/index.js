@@ -25,7 +25,8 @@ var path = require('path'),
     krakenutil = require('../util'),
     us = require('underscore.string');
 
-krakenutil.update();
+ krakenutil.bowerCheck();
+ krakenutil.update();
 
 var debug = require('debuglog')('generator-kraken');
 
